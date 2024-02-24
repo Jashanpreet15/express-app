@@ -1,0 +1,5 @@
+form(action=`/students/${student._id}?_method=put` method="post")
+  input(type="text" name="firstName" value=student.firstName)
+  input(type="text" name="lastName" value=student.lastName)
+  input(type="text" name="email" value=student.email)
+  button(type="submit") Update Student
